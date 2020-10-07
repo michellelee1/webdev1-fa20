@@ -4,21 +4,24 @@ body {
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(189,233,148,1) 100%);
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    margin-top: 5%;
+
+    
 }
 h1 {
-    color: blue;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-
+    color: #1c135f;
+    margin: 30px;
+    text-decoration: underline;
 }
 
 
 .wrapper {
-    width: 414px;
-    height: 736px;
+    width: 24vw;
+    min-width: 375px;
+    height: 75vh;
+    background-image: url(https://creatorsbank.com/user_files/0795d079-ded7-4104-8d49-e6b25c69308e.jpg);
     border: 10px solid black;
     border-radius: 30px;
     padding: 5px;
@@ -34,9 +37,16 @@ h1 {
 }
 
 .box {
-    width: 4em;
+    width: 6em;
     height: 4em;
-    border: 2px solid red;
+    border: 2px solid #3120aa;
+    background-color: #3120aa;
     border-radius: 20px;
     margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
 }
