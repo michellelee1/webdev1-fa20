@@ -24,7 +24,7 @@ h1 {
     background-image: url(https://creatorsbank.com/user_files/0795d079-ded7-4104-8d49-e6b25c69308e.jpg);
     border: 10px solid black;
     border-radius: 30px;
-    padding: 5px;
+    padding: 20px 0;
 }
 
 .row {
@@ -37,16 +37,30 @@ h1 {
 }
 
 .box {
-    width: 6em;
-    height: 4em;
-    border: 2px solid #3120aa;
-    background-color: #3120aa;
+    width: 65px;
+    height: 65px;
     border-radius: 20px;
-    margin: 15px;
+    margin: 2px 1px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 500;
+    font-size: 12px;
+}
+
+.a {
+    background-color: #3c5d72;
+}
+
+.b {
+    background-color: #F28D9F;
+}
+
+.d {
+    background-color: #E79175;
+}
+
+.c {
+    background-color: #0c4b3c;
 }
