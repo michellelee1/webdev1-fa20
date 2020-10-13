@@ -3,19 +3,6 @@
     margin: 0;
 }
 
-.frame {
-    display: flex;
-    align-items: center;
-}
-
-h1 {
-    color:#351B59;
-    position: sticky;
-    text-align: center;
-    top: 50%;
-
-}
-
 .buffering {
     background-color: #F26BE9;
     margin: 15% auto;
@@ -32,4 +19,12 @@ h1 {
     0% {transform: rotate(0deg) scale(1); }
     50% {transform: rotate(180deg) scale(2);}
     100% {transform: rotate(360deg) scale(1); }
+}
+
+h1 {
+    color:#351B59;
+    position: sticky;
+    text-align: center;
+    top: 50%;
+
 }
