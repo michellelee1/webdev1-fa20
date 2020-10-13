@@ -4,18 +4,20 @@
 }
 
 .wrapper {
-    height: 100vh;
-    text-align: center;
+    width: 100vw;
+
 }
 
 h1 {
-    color: pink;
+    color: coral;
     text-decoration: underline;
+    position: relative;
+    left: 50%;
 }
 
 #imagebox {    
     position: relative;
-    left: 0;
+    left: 40%;
 }
   
 #imagebox img {
@@ -51,7 +53,7 @@ h1 {
 .loading {
     position: absolute;
     top: 70%;
-    left: 50%;
+    left: 51%;
 }
 
 .bar {
