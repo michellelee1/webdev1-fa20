@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.frame {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    color: purple;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 45%;
+}
+
+.buffering {
+    margin: 15% auto;
+    border: 25px dotted #A6A6A6;
+    border-top: 40px dotted #0D0D0D;
+    border-right: 35px dotted #262626;
+    border-bottom: 30pn dotted #595959;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+    0% {transform: rotate(0deg) scale(1); }
+    50% {transform: rotate(180deg) scale(2);}
+    100% {transform: rotate(360deg) scale(1); }
+}
