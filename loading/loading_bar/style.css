@@ -10,18 +10,22 @@
 
 h1 {
     color: coral;
+    margin: 50px;
+    text-align: center;
     text-decoration: underline;
     position: relative;
-    left: 50%;
+
 }
 
 #imagebox {    
     position: relative;
-    left: 40%;
+    margin: 25px;
+    left: 36%;
+
 }
   
 #imagebox img {
-    width: 30%;
+    width: 25%;
     position:absolute;
 }
 
@@ -29,7 +33,7 @@ h1 {
     animation-name: fade;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    animation-duration: 10s;
+    animation-duration: 8s;
     animation-direction: alternate;
 }
 
@@ -53,7 +57,7 @@ h1 {
 .loading {
     position: absolute;
     top: 70%;
-    left: 51%;
+    left: 45%;
 }
 
 .bar {
