@@ -3,29 +3,25 @@
     margin: 0;
 }
 
-.wrapper {
-    width: 100vw;
-
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
     color: coral;
-    margin: 50px;
-    text-align: center;
+    margin: 25px;
     text-decoration: underline;
     position: relative;
-
 }
 
 #imagebox {    
     position: relative;
-    margin: 25px;
-    left: 36%;
-
 }
   
-#imagebox img {
-    width: 25%;
+.bottom {
     position:absolute;
 }
 
@@ -55,9 +51,7 @@ h1 {
 }
 
 .loading {
-    position: absolute;
-    top: 70%;
-    left: 45%;
+    position: relative;
 }
 
 .bar {
