@@ -4,7 +4,6 @@
 }
 
 .buffering {
-    background-color: #F26BE9;
     margin: 15% auto;
     border: 40px solid #73BFBF;
     border-top: 40px solid #4C49A6;
@@ -22,7 +21,7 @@
 }
 
 h1 {
-    color:#351B59;
+    color:#F26BE9;
     position: sticky;
     text-align: center;
     top: 50%;
