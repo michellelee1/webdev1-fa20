@@ -1,14 +1,23 @@
-h1 {
-    color: blue;
+body {
+    height: 100vh;
+    background: rgb(73,115,242);
+background: linear-gradient(0deg, rgba(73,115,242,1) 0%, rgba(126,62,154,1) 48%, rgba(242,5,5,1) 100%);
 }
 
-body {
-    background-color: gray;
+h1 {
+    color: blue;
+    text-decoration: underline;
+}
+
+p {
+    color: white;
+    font-size: 20px;
 }
 
 @media only screen and (min-width: 800px) {
     body {
-        background-color: white;
+        background: rgb(242,5,5);
+background: linear-gradient(0deg, rgba(242,5,5,1) 0%, rgba(126,62,154,1) 48%, rgba(73,115,242,1) 100%);
     }
     h1 {
         color: red;
