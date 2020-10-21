@@ -1,0 +1,17 @@
+body {
+    background-color: #F71900;
+    color: white;
+    text-align: center;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: clamp(4rem, 10vw, 8rem);
+}
+
+p {
+    line-height: 1;
+    font-size: clamp(2rem, 2.5vw, 4rem);
+}
+/*I'm starting to understand clamp(MIN, VAL, MAX) in css but I don't understand when it is saying that "clamp( MIN, VAL, MAX) is resolved as max(min, min(val,max))". I sort of understand that the width of the "container" affects the values, but I don't get the calulations involved.*/
