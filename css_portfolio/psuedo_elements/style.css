@@ -1,0 +1,14 @@
+body {
+    background-color: #C7505B;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-size: 1em;
+}
+
+p::first-letter {
+    font-size: 2em;
+    color: navy;
+}
