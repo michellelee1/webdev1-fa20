@@ -1,0 +1,22 @@
+body {
+    background-color: #002E82;
+    color: darkgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    display: flex;
+    width: 80vmin;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+}
+
+h2 {
+    color: #002E82;
+}
