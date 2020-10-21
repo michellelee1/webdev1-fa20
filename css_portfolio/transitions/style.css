@@ -1,0 +1,24 @@
+body {
+    background-color: #E617E2;
+    color: #240B23;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    color: navy;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background-color: #FFBC75;
+    transition: width 3s linear 1s, height 3s linear 1s, background-color 3s linear 1s, border-radius 3s linear 1s; 
+}
+
+.box:hover {
+    width: 400px;
+    height: 400px;
+    background-color: #FF8300;
+    border-radius: 30px;
+}
