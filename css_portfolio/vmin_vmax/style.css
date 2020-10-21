@@ -1,0 +1,30 @@
+body {
+    background-color: #2100F7;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: #AD8AFF;
+    width: 90vmax;
+
+}
+
+h1 {
+    color: #414042;
+    font-size: 10vmin;
+    font-weight: 900;
+    text-align: center;
+}
+
+.box {
+    width: 50vmax;
+}
+
+p {
+    font-size: clamp(1rem, 1.5vw, 3rem);
+    text-align: center;
+}
