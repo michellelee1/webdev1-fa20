@@ -16,5 +16,6 @@ header {
 }
 
 .frame {
-    border: 2px solid white;
+    border: 10px solid #2C4A3B;
+    margin: 25px;
 }
