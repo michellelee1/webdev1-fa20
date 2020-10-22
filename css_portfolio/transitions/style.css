@@ -8,18 +8,30 @@ body {
     align-items: center;
 }
 
+
 .box {
     color: navy;
     text-align: center;
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
     background-color: #FFBC75;
     transition: width 3s linear 1s, height 3s linear 1s, background-color 3s linear 1s, border-radius 3s linear 1s; 
 }
 
 .box:hover {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     background-color: #FF8300;
     border-radius: 30px;
+}
+.box h2 {
+    color: #3f133e;
+    font-size: 1.1em;
+    margin-top: 35%;
+    transition: font-size 3s linear 1s, color 3s linear 1s;
+}
+
+.box:hover h2 {
+    color: #E617E2;
+    font-size: 2em;
 }
