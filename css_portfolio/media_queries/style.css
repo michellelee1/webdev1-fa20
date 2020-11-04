@@ -2,7 +2,6 @@ body {
     height: 100vh;
     background: rgb(73,115,242);
     background: linear-gradient(0deg, rgba(73,115,242,1) 0%, rgba(126,62,154,1) 48%, rgba(242,5,5,1) 100%);
-    text-align: center;
 }
 
 header a {
@@ -20,16 +19,19 @@ header a {
 header a:hover {
     color: white;
     background-color:rgba(185, 185, 185, .8);
+    
 }
 
 h1 {
     color: blue;
     text-decoration: underline;
+    text-align: center;
 }
 
 p {
     color: white;
     font-size: 20px;
+    text-align: center;
 }
 
 @media only screen and (min-width: 800px) {
