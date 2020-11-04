@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/images/wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 20px;
+    text-align: center;
+    color: goldenrod;
+}
+
+li {
+    list-style-type: none;
+    margin: 10px;
+}
+
+
+a {
+    color: rgb(139, 107, 23);
+    font-size: 2em;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgba(185, 185, 185, .8);
+    color: honeydew;
+}
+
+img {
+    margin: 75px 0;
+    border: 5px solid white;
+    border-radius: 120px;
+}
