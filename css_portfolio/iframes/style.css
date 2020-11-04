@@ -26,10 +26,10 @@ header a:hover {
 main {
     background-color: #8DFCC5;
     color: #2C4A3B;
-    padding: 25px;
+    padding: 15px;
     text-align: center;
     width: 75vw;
-    height: 20vh;
+    height: 15vh;
 }
 
 .frame {
