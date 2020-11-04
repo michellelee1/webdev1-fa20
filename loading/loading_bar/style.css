@@ -10,15 +10,38 @@ body {
     align-items: center;
 }
 
+
+header a {
+  font-size: 1.5em;
+  position: absolute;
+  top: 2%;
+  left: 5%;
+  text-decoration: none;
+  color: blueviolet;
+  width: 100px;
+  text-align: center;
+  padding: 10px;
+}
+
+header a:hover {
+  color: cornsilk;
+  background-color: rgba(185, 185, 185, .8);
+}
+
 h1 {
     color: coral;
     margin: 25px;
     text-decoration: underline;
-    position: relative;
+    text-align: center;
+}
+
+img {
+    max-width: 75%;
 }
 
 #imagebox {    
     position: relative;
+    text-align: center;
 }
   
 .bottom {
@@ -52,6 +75,8 @@ h1 {
 
 .loading {
     position: relative;
+    padding: 50px;
+    text-align: center;
 }
 
 .bar {

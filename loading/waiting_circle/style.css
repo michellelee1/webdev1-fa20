@@ -3,6 +3,23 @@
     margin: 0;
 }
 
+header a {
+    font-size: 1.5em;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    text-decoration: none;
+    color: blueviolet;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  header a:hover {
+    color: cornsilk;
+    background-color: rgba(185, 185, 185, .8);
+  }
+
 .buffering {
     margin: 15% auto;
     border: 40px solid #73BFBF;

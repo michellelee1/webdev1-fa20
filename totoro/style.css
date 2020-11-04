@@ -9,6 +9,20 @@ body {
     height: 100vh;
 }
 
+header a {
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    top: 2%;
+    left: 3%;
+    padding: 10px;
+    background-color: tomato;
+    border: 3px solid white;
+    border-radius: 50px;
+
+
+}
+
 #title {
     text-align: center;
     position: absolute;
@@ -120,8 +134,8 @@ h1 {
 audio {
     height: 25px;
     position: absolute;
-    top: 2%;
-    left: 2%;
+    top: 4%;
+    left: 10%;
 }
 
 audio::-webkit-media-controls-play-button,

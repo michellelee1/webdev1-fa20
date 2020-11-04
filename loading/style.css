@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(/images/wallpaper.jpg);
+    background-image: url(images/wallpaper.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
@@ -15,6 +15,23 @@ body {
     justify-content: start;
     align-items: center;
 }
+
+header a {
+    font-size: 1.5em;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    text-decoration: none;
+    color: blueviolet;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  header a:hover {
+    color: cornsilk;
+    background-color: rgba(185, 185, 185, .8);
+  }
 
 h1 {
     font-size: 4em;
@@ -26,6 +43,7 @@ h1 {
 li {
     list-style-type: none;
     margin: 10px;
+    text-align: center;
 }
 
 

@@ -7,6 +7,22 @@ body {
     align-items: center;
 }
 
+header a {
+    font-size: 1.5em;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    text-decoration: none;
+    color: aliceblue;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  header a:hover {
+    background-color:rgba(63,94,251,.8);
+  }
+
 h1 {
     color: aliceblue;
     font-size: 3em;
@@ -28,5 +44,11 @@ h1 {
 
 .box img {
     width: 5vw;
+}
+
+.box:hover {
+    box-shadow: 2px 2px black;
+    background-color: rgba(185, 185, 185, .2);
+    border-radius: 50%;
 }
 

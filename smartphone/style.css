@@ -1,5 +1,22 @@
 * {margin: 0; padding: 0; box-sizing: border-box;}
 
+header a {
+    font-size: 1.5em;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    text-decoration: none;
+    color: #1c135f;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  header a:hover {
+    color: cornsilk;
+    background-color: rgba(185, 185, 185, .8);
+  }
+
 .home-link {
     position: absolute;
     top: 0;

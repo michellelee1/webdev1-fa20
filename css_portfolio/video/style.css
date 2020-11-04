@@ -7,6 +7,23 @@ body {
     align-items: center;
 }
 
+header a {
+    font-size: 1.5em;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    text-decoration: none;
+    color: #2C4A3B;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+}
+  
+header a:hover {
+    color: white;
+    background-color:rgba(185, 185, 185, .8);
+}
+
 .video {
     display: flex;
     width: 80vmin;

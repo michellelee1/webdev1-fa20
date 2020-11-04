@@ -4,6 +4,23 @@ body {
 background: linear-gradient(0deg, rgba(73,115,242,1) 0%, rgba(126,62,154,1) 48%, rgba(242,5,5,1) 100%);
 }
 
+header a {
+    font-size: 1.5em;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    text-decoration: none;
+    color: #2C4A3B;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+}
+  
+header a:hover {
+    color: white;
+    background-color:rgba(185, 185, 185, .8);
+}
+
 h1 {
     color: blue;
     text-decoration: underline;

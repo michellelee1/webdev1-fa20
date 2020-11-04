@@ -2,6 +2,23 @@ body {
     background-color: darkolivegreen;
 }
 
+header a {
+    font-size: 1.5em;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    text-decoration: none;
+    color: #2C4A3B;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+}
+  
+header a:hover {
+    color: white;
+    background-color:rgba(185, 185, 185, .8);
+}
+
 h1 {
     font-size: 4em;
     font-family: 'Righteous', cursive;
