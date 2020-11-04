@@ -6,7 +6,7 @@
 body {
     background: linear-gradient(180deg, purple, indigo, blue );
     width: auto;
-    height: 800px;
+    height: 100vh;
 }
 
 #title {
@@ -44,14 +44,14 @@ h1 {
 }
 
 #caught {
-    top: 35%;
+    top: 30%;
     right: 2%;
     border: 5px solid goldenrod;
     border-radius: 50%;
 }
 
 #sneaking {
-    top: 500px;
+    top: 65%;
     right: 10%;
     border: 5px solid hotpink;
     border-radius: 10%;
