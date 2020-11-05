@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/geometric.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+}
+
+h1 {
+    grid-area: name-area;
+}
+
+#content {
+    grid-area: content-area;    
+   
+}    
+
+h2 {
+    font-size: 2em;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+#picture {
+
+    grid-area: picture-area;
+}
+
+img {
+    width: 50%;
+    border-radius: 50%;
+    margin: 50px 0;
+}
+
+.grid {
+    width: 100%;
+    justify-items: center;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas: 
+        "name-area"
+        "content-area"
+        "picture-area"
+}
+
+
+@media only screen and (min-width: 481px){
+
+    .grid {
+        width: 50%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "name-area name-area"
+            "content-area picture-area"
+
+    }
+
+    h1 {
+        color:  white;
+        font-size: 4em;
+        margin: 20px 0 40px 0;
+        padding: 10px;
+        text-align: center;
+        width: 80%;
+    }
+    
+    #content {
+        text-align: end;
+        padding: 25px;
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 1.75em;
+        color: white;
+    }
+
+    a:hover {
+        background-color: rgba(185, 185, 185, .8)
+    }
+
+    a:visited {
+        color: white;
+    }
+
+    img {
+        width: 75%;
+    }
+
+}
+    
