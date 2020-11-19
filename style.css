@@ -9,6 +9,7 @@ body {
     background-size: cover;
     background-position: center;
     color: white;
+    text-shadow: black 2px 1px;
     width: 100vw;
     display: flex;
     flex-direction: column;
