@@ -33,6 +33,25 @@ h2 {
     margin: 20px 0;
 }
 
+ul {
+    list-style-type: none;
+    margin-left: 25px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.25em;
+    color: white;
+}
+
+a:hover {
+    background-color: rgba(185, 185, 185, .8)
+}
+
+a:visited {
+    color: white;
+}
+
 #picture {
 
     grid-area: picture-area;
@@ -86,22 +105,8 @@ img {
         font-size: 3em;
     }
 
-    ul {
-        list-style-type: none;
-    }
-
     a {
-        text-decoration: none;
         font-size: 1.75em;
-        color: white;
-    }
-
-    a:hover {
-        background-color: rgba(185, 185, 185, .8)
-    }
-
-    a:visited {
-        color: white;
     }
 
     img {
