@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: purple;
+  }
+
+  #toggle {
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  h1 {
+      color: white;
+  }
+ 
+  img {
+      width: 100px;
+  }
+  
+  .modal {
+    color: white;
+    max-width: 400px;
+    max-height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal_close {
+    position: absolute;
+    font-size: clamp(24px, 10vmin, 30px);
+    right: 4%;
+    top: 0;
+    transform: rotateZ(45deg);
+    font-weight: 800;
+  }
+  
+  .modal_close:hover {
+    color: yellow;
+    cursor: pointer;
+  }
+  
+  .modal_message {
+    text-align: center;
+    padding: 1.5em;
+    font-size: clamp(40px, 6vmin, 30px);
+    font-family: 'Permanent Marker', cursive;
+    background: teal;
+    border-radius: .5em;
+    border: 3px solid lavenderblush;
+  }
